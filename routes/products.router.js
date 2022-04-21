@@ -1,3 +1,5 @@
+
+const {Router} = require("express");
 const {createProduct, deleteProduct, getAllProducts, getSingleProduct, updateProduct} = require("../controllers/products.controller");
 
 const productRouter = Router();
